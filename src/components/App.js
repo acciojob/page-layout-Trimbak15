@@ -1,19 +1,17 @@
-
 import React from "react";
-import './../styles/App.css';
 import Header from "./Header";
 import Child from "./Child";
 import Footer from "./Footer";
+import PageLayout from "./PageLayout";
 
 const App = () => {
   return (
-    <div>
-        {/* Do not remove the main div */}
-        <Header/>
-        <Child/>
-        <Footer/>
-    </div>
-  )
-}
+    <PageLayout
+      header={<Header />}
+      children={<Child />}
+      footer={<Footer />}
+    />
+  );
+};
 
-export default App
+export default App;
