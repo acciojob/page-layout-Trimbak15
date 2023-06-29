@@ -6,9 +6,9 @@ const Footer = () =>{
 
         <div>
 
-           <h2>
+           <p>
            &copy; 2023 My Website. All rights reserved.
-            </h2> 
+            </p> 
         </div>
     )
 }

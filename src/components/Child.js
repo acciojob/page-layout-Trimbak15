@@ -5,7 +5,7 @@ const Child = () => {
     return (
 
         <div>
-            <h3>This is the content of my website.</h3>
+            <p>This is the content of my website.</p>
         </div>
     )
 }
